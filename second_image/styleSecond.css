@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+  }
+.first {
+  background-color: blue;
+  width: 33.33%;
+  height: 100vh;
+  float: left;
+}
+.second {
+  background-color: green;
+  width: 33.33%;
+  height: 100vh;
+  float: left;
+}
+.third {
+  background-color: yellow;
+  width: 33.33%;
+  height: 100vh;
+  float: left;
+}
+.imageholder {
+  height: 20vh;
+  width: 33.33%;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+p {
+  font: 40px/20vh Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
